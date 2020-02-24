@@ -1,4 +1,4 @@
-function printLabel(name,street_address,city,state,zip_code){
+function printLabel(name, street_address, city, state, zip_code) {
     let label = ` ${name} \n ${street_address} \n ${city}, ${state} ${zip_code}`;
     return label;
 }
@@ -24,6 +24,6 @@ let person3_city = 'Memphis';
 let person3_state = 'TN';
 let person3_zip_code = '38333';
 
-console.log(printLabel(person1_name,person1_street_address,person1_city,person1_state, person1_zip_code));
-console.log(printLabel(person2_name,person2_street_address,person2_city,person2_state, person2_zip_code));
-console.log(printLabel(person3_name,person3_street_address,person3_city,person3_state, person3_zip_code));
+console.log(printLabel(person1_name, person1_street_address, person1_city, person1_state, person1_zip_code));
+console.log(printLabel(person2_name, person2_street_address, person2_city, person2_state, person2_zip_code));
+console.log(printLabel(person3_name, person3_street_address, person3_city, person3_state, person3_zip_code));
